@@ -20,5 +20,12 @@ namespace CarAssist.Model
         public DateTime CreatedOn { get; set; }
         public DateTime UpdatedOn { get; set; }
 
+        public virtual User User { get; set; }
+        public virtual VehicleType VehicleType { get; set; }
+        public virtual Feul Feul { get; set; }
+        public virtual Brand Brand { get; set; }
+
+        public virtual ICollection<Images> Images { get; set; }
+
     }
 }

@@ -15,5 +15,7 @@ namespace CarAssist.Model
         public DateTime CreatedOn { get; set; }
         public bool IsActive { get; set; }
 
+        public virtual Vehicle Vehicle { get; set; }
+
     }
 }

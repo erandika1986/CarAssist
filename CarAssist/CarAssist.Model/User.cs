@@ -13,5 +13,7 @@ namespace CarAssist.Model
         public string Password { get; set; }
         public string Email { get; set; }
         public string Mobile { get; set; }
+
+        public virtual ICollection<Vehicle> Vehicles { get; set; }
     }
 }

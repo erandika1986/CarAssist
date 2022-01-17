@@ -10,5 +10,9 @@ namespace CarAssist.Model
     {
         public long Id { get; set; }
         public string Name { get; set; }
+
+        //public virtual ICollection<Vehicle> Vehicles { get; set; }
+
+        public virtual Vehicle Vehicle { get; set; }
     }
 }

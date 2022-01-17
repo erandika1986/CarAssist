@@ -1,0 +1,8 @@
+﻿Update-Database -Project CarAssist.Data -StartUp CarAssist.api -Verbose
+
+
+Add-Migration CarAssist00001 -Project  CarAssist.Data -StartUp CarAssist.api -Verbose
+
+
+
+Script-Migration -From CarAssist00001 -Project CarAssist.Data -StartUp CarAssist.api -Verbose
